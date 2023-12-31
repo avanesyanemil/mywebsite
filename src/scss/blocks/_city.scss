@@ -1,0 +1,68 @@
+.city__section{
+    background: url(../../img/city-bg.jpg) no-repeat center;
+    object-fit: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.city__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 98px 0 61px;
+    gap: 30px;
+    @media screen and (max-width:999px) {
+        flex-direction: column;
+        padding: 0 0 25px 0;
+        text-align: center;
+        
+    }
+}
+
+.right-item{
+     text-align: right;
+     font-size: 105px;
+     font-style: normal;
+     line-height: 111.192px; /* 105.897% */
+     letter-spacing: 5px;
+     @media screen and (max-width:999px) {
+        font-size: 48px;
+        line-height: 50px;
+        text-align: center;
+    }
+}
+
+.city__left{
+    padding: 179px 0 8px;
+    @media screen and (max-width:999px) {
+        padding: 40px 0 0 0;
+    }
+}
+
+.city__title{
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66.745px; /* 102.685% */
+    margin-bottom: 12px;
+    @media screen and (max-width:999px) {
+        font-size: 40px;
+    }
+    
+}
+
+.city__info{
+    width: 242px;
+    font-size: 21px;
+    line-height: 24.823px; /* 118.202% */
+    margin-bottom: 49px;
+    @media screen and (max-width:999px) {
+        margin: 0 auto 49px;
+    }
+}
+
+.city__info2{
+    margin-top: 56px;
+    font-size: 18px;
+    line-height: 24.3px; /* 135% */
+}

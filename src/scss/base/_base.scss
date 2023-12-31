@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+	color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+	line-height: 18.343px; /* 101.904% */
+}
+
+.container{
+	max-width: 1044px;
+	padding: 0 16px;
+	margin: 0 auto;
+}
+
+.primaryBtn{
+	background-color: $primary;
+	padding: 11px 51px;
+	border-radius: 999px;
+    transition: all 0.2s ease-in;
+	color: #FFF;
+	&:hover{
+		background-color: blue;
+	}
+}
+
+.primaryBtnBig{
+	background-color: $primary;
+	padding: 21px 54px;
+	border-radius: 999px;
+    transition: all 0.2s ease-in;
+	color: #FFF;
+	&:hover{
+		background-color: blue;
+	}
+	@media screen and (max-width:999px) {
+       padding: 12px 30px;
+
+    }
+}
+
+.title-2{
+	color:$black2;
+    font-size: 67px;
+    line-height: 66.745px; /* 99.619% */
+	@media screen and (max-width:999px){
+		font-size: 36px;
+	}
+}
+
+.btn{
+	padding: 12px 60px 12px 39px;
+        border: 1px solid $black2;
+        border-radius: 999px;
+        color: $black2;
+        font-size: 16px;
+        line-height: 16px; /* 100% */
+        background: url(../../img/way/Frame\ \(1\).svg) no-repeat 120px center;
+        transition: 0.2s all ease-in;
+        &:hover{
+            background: url(../../img/way/Frame\ \(1\).svg) no-repeat 124px center;
+        }
+}

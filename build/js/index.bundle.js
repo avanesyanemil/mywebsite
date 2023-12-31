@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelector("#burger-menu"),t=document.querySelector(".nav__right");e.addEventListener("click",(function(){t.classList.toggle("nav__active"),t.classList.contains("nav__active")?this.classList.add("close"):this.removeAttribute("class")}))}));

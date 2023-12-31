@@ -1,0 +1,56 @@
+.ride{
+    margin-top: 146px;
+    
+    display: flex;
+    gap: 17px;
+   
+    @media screen and (max-width:999px) {
+        text-align: center;
+         justify-content: center;
+         flex-wrap: wrap;
+         width: 100%;
+         margin-top: 60px;
+    }
+}
+
+.ride__item{
+    
+    max-width: 426px;
+    transform: translateY(-10px);
+   
+}
+
+.ride-title{
+    color: $black2;
+    font-size: 67px;
+    line-height: 66.745px; /* 99.619% */
+    margin-bottom: 26px;
+    @media screen and (max-width:999px) {
+       font-size: 38px;
+       line-height: 46px;
+    }
+}
+
+.ride-info{
+    max-width: 313px;
+    color: $black2;
+    font-size: 18px;
+    line-height: 21.6px; /* 120% */
+    margin-bottom: 51px;
+    @media screen and (max-width:999px) {
+        margin: 0 auto 51px;
+        font-size: 16px;
+    }
+}
+
+
+
+.ride-pic{
+    width: 597px;
+    img{
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+

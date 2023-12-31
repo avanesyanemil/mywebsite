@@ -1,0 +1,125 @@
+@media screen and (max-width:999px) {
+    .nav__mobile{
+        display: block;
+    }
+
+    .nav__right{
+        position: fixed;
+        top: 0;
+        transition: left 0.3s ease-in;
+        left: -5000px;
+        width: 250px;
+        height: 100vh;
+        background-color: $bg-color;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 30px;
+        gap: 32px;
+
+        &.nav__active{
+            
+            transition: left 0.2s ease-in;
+            left: 0px;
+        }
+    }
+
+    .nav{
+        margin-bottom: 80px;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .nav-link{
+        color: $black1;
+    }
+
+    .select{
+        color: $black1;
+    }
+
+    .primaryBtn{
+        padding: 7px 20px;
+    }
+
+    #burger-menu {
+        cursor: pointer;
+        height: 27px;
+        width: 27px;
+        
+        overflow: visible;
+        position: relative;
+        z-index:2;
+      }
+      #burger-menu span,
+      #burger-menu span:before,
+      #burger-menu span:after {
+        background: #fff;
+        display: block;
+        height: 4px;
+        opacity: 1;
+        position: absolute;
+        transition: 0.3s ease-in-out;
+      }
+      #burger-menu span:before,
+      #burger-menu span:after {
+        content: "";
+      }
+      #burger-menu span {
+        right: 0px;
+        top: 13px;
+        width: 27px;
+      }
+      #burger-menu span:before {
+        right: 0;
+        top: -10px;
+        width: 16px;
+      }
+      #burger-menu span:after {
+        right: 0;
+        top: 10px;
+        width: 20px;
+      }
+      
+      #burger-menu.close span {
+        transform: rotate(-45deg);
+        top: 13px;
+        width: 27px;
+      }
+      #burger-menu.close span:before {
+        top: 0px;
+        transform: rotate(90deg);
+        width: 27px;
+      }
+      #burger-menu.close span:after {
+        top: 0px;
+        left:0;
+        transform: rotate(90deg);
+        opacity:0;
+        width:0;
+      }
+
+      .header__content{
+        padding-bottom: 58px;
+      }
+
+      .header-title{
+        font-size: 48px;
+        line-height: 1.1;
+        margin-bottom: 24px;
+      }
+
+      .header-info{
+        font-size: 16px;
+        margin-bottom: 36px;
+      }
+
+      .ride{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+}
