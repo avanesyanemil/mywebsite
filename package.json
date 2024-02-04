@@ -35,5 +35,12 @@
 	},
 	"browserslist": [
 		"last 5 versions"
-	]
+	],
+	"scripts": {
+		"deploy":"gh-pages -d build"
+	},
+	"homepage": "https://avanesyanemil.gihub.io/mywebsite",
+	"dependencies": {
+		"gh-pages": "^6.1.1"
+	}
 }
