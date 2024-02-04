@@ -37,7 +37,7 @@
 		"last 5 versions"
 	],
 	"scripts": {
-		"deploy":"gh-pages -d docs"
+		"deploy": "gh-pages -d docs"
 	},
 	"homepage": "https://avanesyanemil.gihub.io/mywebsite",
 	"dependencies": {
